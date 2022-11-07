@@ -1,6 +1,11 @@
 .shortcut {
-    text-align: center;    
+    text-align: center;        
+    padding: 10px;    
   }
+.navbar{
+  text-align: left;
+  margin-left: 10px;
+}
 .menuLogo{
   display: block;
   margin-left: auto;
@@ -15,4 +20,9 @@ header {
   margin-top: 20px;
   padding-bottom: 10px;
   border-bottom: 2px solid #b5b5b5;
+}
+.useroption{
+  text-align: right;
+  margin-right: 90px;
+  margin-top: -25px;
 }

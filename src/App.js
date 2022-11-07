@@ -3,6 +3,7 @@ import './styles.css';
 import Shortcuts from './components/shortcuts';
 import datos from './mocking/perfiles';
 import MenuLogo from "./components/menulogo";
+import UserOptions from './components/useroptions';
 
 class App extends React.Component{
   render(){
@@ -21,6 +22,7 @@ class App extends React.Component{
           <logo-row></logo-row>
           <MenuLogo></MenuLogo>
           <Shortcuts></Shortcuts>                          
+          <UserOptions></UserOptions>
         </header>      
         
       </div>    
