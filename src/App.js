@@ -24,7 +24,6 @@ class App extends React.Component{
           <Shortcuts></Shortcuts>                          
           <UserOptions></UserOptions>
         </header>      
-        
       </div>    
     );
   }
