@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './styles.css';
+import Shortcuts from './components/shortcuts';
+import datos from './mocking/perfiles';
+import MenuLogo from "./components/menulogo";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+  render(){
+    return (
+      <div>
+        <select name="perfil">
+          {
+          datos.map(obj =>{
+            return(
+              <option id={obj.id}>{obj.nombre}</option>
+            )
+          })
+          }
+        </select>
+        <header>
+          <logo-row></logo-row>
+          <MenuLogo></MenuLogo>
+          <Shortcuts></Shortcuts>                          
+        </header>      
+        
+      </div>    
+    );
+  }
 }
 
 export default App;
