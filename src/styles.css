@@ -1,9 +1,3 @@
-.shortcut {
-  margin-right: 10px;
-}
-.navbar{  
-  margin-left: 10px;  
-}
 .menuLogo{
   display: block;
   margin-left: auto;
@@ -14,23 +8,93 @@
 .logo-row{
   text-align: center;
 }
-header {
+/* logoConfig ======================*/
+header {    
   padding-bottom: 10px; 
   border-bottom: 2px solid #b5b5b5;
 }
-.useroption{
-  text-align: right;
-  margin-right: 10px;
-  margin-top: -25px;
-}
-.centershortcut{
-  margin-left: auto;
-  margin-right: auto;
-}
 .header-image {
   background-image: url("https://img.freepik.com/premium-photo/set-traditional-sushi-black-plate-sushi-rolls-dark-background_187166-16403.jpg?w=2000");
-  }
-.select{
-  border: 1px solid #fff;
-  background-color: white;
 }
+/* headerConfig ====================*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;  
+  width: auto;
+}
+li {
+  float: left;  
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;  
+}
+li a:hover {
+  background-color: #111;
+}
+.sticky{
+  position:fixed;
+  top:0;
+  width: 100%;
+  z-index: 100;
+}
+/* navbar ==========================*/
+form.searchbox input[type=text]{  
+  overflow: hidden;
+  background-color: #e9e9e9; 
+  float: left;
+  padding: 6px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  border: none;
+}
+form.searchbox button{
+  float: left;
+  padding: 6px;
+  margin-top: 10px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+form.searchbox button:hover{
+  background: #ccc;
+}
+/* inputConfig =====================*/
+.useroption{
+  text-align: right;
+  margin-top: 12px;
+  margin-right: 10px;  
+  font-size: 17px;
+}
+.useroption button{
+  padding: 6px;
+  margin-left: 5px;
+  border: none;
+  background-color: #ddd;
+}
+.useroption button:hover {
+  background-color: #ccc;
+}
+/* userButtons */
+.select{
+  margin-left: 10px;
+  padding: 6px;
+  margin-top: 10px;  
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.select:hover{
+  background-color: #ccc;
+}
+/* selectConfig =====================*/
