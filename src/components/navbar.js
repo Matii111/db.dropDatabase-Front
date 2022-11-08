@@ -1,21 +1,21 @@
 import React from 'react';
 let navbar;
 let sticky;
-
 class Navbar extends React.Component{
+  //funcion que permite a la navbar permanecer o no en top   
   componentDidMount(){
     navbar = document.getElementById("main-navigation");
     sticky = navbar.offsetTop;
-    window.addEventListener('scroll', this.handleSticky);
+    window.addEventListener('scroll', this.handleSticky);    
   }
   componentWillUnmount(){
     window.removeEventListener('scroll',this.handleSticky);
   }
   handleSticky = () =>{
     if(window.pageYOffset > sticky){
-      navbar.classList.add("sticky")
+      navbar.classList.add("sticky")      
     } else{
-        navbar.classList.remove("sticky");
+        navbar.classList.remove("sticky");              
     }
   }
   render(){
@@ -32,12 +32,12 @@ class Navbar extends React.Component{
                 <li><a href="#menus">Menus</a></li>
                 <li><a href="#extras">Extras</a></li>
                 <li><a href="#despacho">Despacho</a></li>                 
-            </div>
+            </div>          
           <div class="useroption">
             <button> Ver orden</button>          
             <button> Login</button>                   
           </div>       
-        </ul>          
+        </ul>    
       </div>
     );
   }

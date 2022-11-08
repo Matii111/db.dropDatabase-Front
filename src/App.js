@@ -3,29 +3,32 @@ import './styles.css';
 import Navbar from './components/navbar';
 import datos from './mocking/perfiles';
 import MenuLogo from "./components/menulogo";
+import GotTop from './components/goTop';
 
 class App extends React.Component{
   render(){
     return (
       <div>
-        <header class="header-image">          
+        <header class="header-image">               
           <select class = "select" name="perfil">
             {
             datos.map(obj =>{
               return(
-                <option id={obj.id}>{obj.nombre}</option>
+                <option id={obj.id}>
+                  {obj.nombre}
+                </option>
               )
             })
             }
-          </select>          
-          <logo-row></logo-row>
-          <MenuLogo></MenuLogo>    
-          <Navbar></Navbar>                
-        </header>   
-        <div class="content">
-          <h1>
+          </select>              
+          <MenuLogo></MenuLogo>                  
+          <Navbar></Navbar>                                            
+        </header>           
+        <GotTop></GotTop>    
+        <div class="content">          
+          <h1>          
             Aaaaaaaaaaaaaaaaaaa
-            Aaaaaaaaaaaaaaaaaaa
+            Aaaaaasaaaaaaaasaaaaa
             Aaaaaaaaaaaaaaaaaaa
             Aaaaaaaaaaaaaaaaaaa
             Aaaaaaaaaaaaaaaaaaa
