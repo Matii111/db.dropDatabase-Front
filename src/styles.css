@@ -1,14 +1,8 @@
 .shortcut {
   margin-right: 10px;
 }
-.navbar{
-  margin-left: 10px;
-  text-align: left;
-  position:absolute;
-  top:16%;
-  width:5%;
-  background-color:white;
-  color:grey;
+.navbar{  
+  margin-left: 10px;  
 }
 .menuLogo{
   display: block;
@@ -21,8 +15,7 @@
   text-align: center;
 }
 header {
-  margin-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 10px; 
   border-bottom: 2px solid #b5b5b5;
 }
 .useroption{
@@ -33,4 +26,11 @@ header {
 .centershortcut{
   margin-left: auto;
   margin-right: auto;
+}
+.header-image {
+  background-image: url("https://img.freepik.com/premium-photo/set-traditional-sushi-black-plate-sushi-rolls-dark-background_187166-16403.jpg?w=2000");
+  }
+.select{
+  border: 1px solid #fff;
+  background-color: white;
 }
