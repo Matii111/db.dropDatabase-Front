@@ -1,4 +1,5 @@
 import React from 'react';
+import PopupLogin from './login/popup';
 let navbar;
 let sticky;
 class Navbar extends React.Component{
@@ -31,12 +32,9 @@ class Navbar extends React.Component{
                 <li class="liHeader"><a href="#promociones">Promociones</a></li>          
                 <li class="liHeader"><a href="#menus">Menus</a></li>
                 <li class="liHeader"><a href="#extras">Extras</a></li>
-                <li class="liHeader"><a href="#despacho">Despacho</a></li>                 
-            </div>          
-          <div class="useroption">
-            <button> Orden</button>          
-            <button> Login</button>                   
-          </div>       
+                <li class="liHeader"><a href="#despacho">Despacho</a></li>                                 
+                <PopupLogin class="useroption"></PopupLogin>                                                    
+            </div>                    
         </ul>    
       </div>
     );
