@@ -1,26 +1,16 @@
 import React from 'react';
 import './styles.css';
 import Navbar from './components/navbar';
-import datos from './mocking/perfiles';
-import MenuLogo from "./components/menulogo";
+import SelectRol from './components/selectRol';
+import MenuLogo from "./components/menuLogo";
 import GotTop from './components/goTop';
-
+import Footer from './components/footer';
 class App extends React.Component{
   render(){
     return (
       <div>
         <header class="header-image">               
-          <select class = "select" name="perfil">
-            {
-            datos.map(obj =>{
-              return(
-                <option id={obj.id}>
-                  {obj.nombre}
-                </option>
-              )
-            })
-            }
-          </select>              
+          <SelectRol></SelectRol>
           <MenuLogo></MenuLogo>                  
           <Navbar></Navbar>                                            
         </header>           
@@ -231,8 +221,8 @@ class App extends React.Component{
             Aaaaaaaaaaaaaaaaaaa
             Aaaaaaaaaaaaaaaaaaa
             Aaaaaaaaaaaaaaaaaaa    
-          </h1>  
-          
+          </h1>
+          <Footer></Footer>  
         </div>   
       </div>    
     );

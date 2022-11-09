@@ -22,16 +22,16 @@ class Navbar extends React.Component{
     return (      
       <div id="main-navigation" className="navbar navbar-expand-lg navbar-light">            
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>                          
-        <ul>
+        <ul class="ulHeader">
           <form class="searchbox">
             <input type="text" placeholder="Hosomaki..."></input>
             <button type="submit"><i class="fa fa-search"></i></button>
           </form>
             <div>            
-                <li><a href="#promociones">Promociones</a></li>          
-                <li><a href="#menus">Menus</a></li>
-                <li><a href="#extras">Extras</a></li>
-                <li><a href="#despacho">Despacho</a></li>                 
+                <li class="liHeader"><a href="#promociones">Promociones</a></li>          
+                <li class="liHeader"><a href="#menus">Menus</a></li>
+                <li class="liHeader"><a href="#extras">Extras</a></li>
+                <li class="liHeader"><a href="#despacho">Despacho</a></li>                 
             </div>          
           <div class="useroption">
             <button> Ver orden</button>          

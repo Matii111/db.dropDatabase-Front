@@ -17,7 +17,7 @@ header {
 }
 
 /* headerConfig ====================*/
-ul {
+.ulHeader {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -25,17 +25,17 @@ ul {
   background-color: #333;  
   width: auto;
 }
-li {
+.liHeader {
   float: left;  
 }
-li a {
+.liHeader a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;  
 }
-li a:hover {
+.liHeader a:hover {
   background-color: #111;
 }
 .sticky{
@@ -97,7 +97,7 @@ form.searchbox button:hover{
 .select:hover{
   background-color: #ccc;
 }
-/* selectConfig =====================*/
+/* selectConfig ====================*/
 .topButtonStyle{
   display: none;
   position: fixed;
@@ -119,4 +119,57 @@ form.searchbox button:hover{
 .topButtonStyleHidden{
   display: none;
 }
-/* topbutton ========================== */
+/* topbutton ====================== */
+.rrssFooter{
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-top: 0px;
+  
+}
+.rrssFooterH3{
+  color: #ddd;
+  margin-top: 0px;
+}
+.rrssFooter i{
+  padding-right: 10px;
+  margin-left: 9px;
+  color: #ddd;
+}
+.rrssFooter i:hover{
+  color:#111;
+}
+.infoFooter{
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.cartaFooter{
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 16px;
+}
+.ulFooter {  
+  list-style-type: none;  
+  padding: 50px;  
+  overflow: hidden;
+  background-color: #333;  
+  display:flex; 
+  text-align: left;
+  margin-top: 0px;    
+}
+.liFooter a {
+  display: block;
+  color: white;
+  text-align: left;  
+  text-decoration: none;  
+  padding-left: 0px;
+  padding-right: 10px;  
+}
+.liFooter a:hover {
+  color: #111;
+}
+.ffooter div{
+  width: 100%;
+  margin:auto;
+  text-align: center;  
+}
+/* footer ========================= */

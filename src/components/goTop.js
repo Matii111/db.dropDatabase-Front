@@ -1,9 +1,9 @@
 import React from 'react';
 let TopButton ;
 //funcion que al clickear el TopButton vuelve la pagina al header
-function topFunction(){  
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+function topFunction(){      
+  document.body.scrollTo({top: 0, behavior: 'smooth'}); // For Safari
+  document.documentElement.scrollTo({top: 0, behavior: 'smooth'}); // For Chrome, Firefox, IE and Opera
 }
 class GotTop extends React.Component{
   //funcion que permite ver el boton TOP al bajar mas de 400px
