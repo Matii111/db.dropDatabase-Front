@@ -14,6 +14,7 @@ header {
 .header-image {
   background-image: url("https://cdn.discordapp.com/attachments/352829804057329674/1039624644367491122/sushibackground.png");
   width: auto;
+  height: auto;
 }
 
 /* headerConfig ====================*/
@@ -151,14 +152,14 @@ form.searchbox button:hover{
   list-style-type: none;  
   padding: 50px;  
   overflow: hidden;
-  background-color: #333;  
+  background-color: #111;  
   display:flex; 
   text-align: left;
   margin-top: 0px;    
 }
 .liFooter a {
   display: block;
-  color: white;
+  color: #ddd;
   text-align: left;  
   text-decoration: none;  
   padding-left: 0px;
@@ -172,4 +173,19 @@ form.searchbox button:hover{
   margin:auto;
   text-align: center;  
 }
+.logoFooter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  height: 100%;
+  width: 100%;  
+  padding-bottom: 10px; 
+  bottom: 0; 
+}
 /* footer ========================= */
+.content{
+  text-align: center;
+  margin: 10px;    
+  border:solid; 
+}
+/* content========================= */
