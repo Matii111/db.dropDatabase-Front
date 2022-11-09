@@ -4,6 +4,7 @@
   margin-right: auto;
   height: 20%;
   width: 20%;  
+  padding-bottom: 10px;
 }
 /* logoConfig ======================*/
 header {    
@@ -12,6 +13,7 @@ header {
 }
 .header-image {
   background-image: url("https://cdn.discordapp.com/attachments/352829804057329674/1039624644367491122/sushibackground.png");
+  width: auto;
 }
 
 /* headerConfig ====================*/

@@ -9,5 +9,4 @@ class PopupLogin extends React.Component{
     );
   }
 }
-
 export default PopupLogin;
