@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Mock del diseño de la página web  
+Para mejorar la elaboración de la página web se elabora el siguiente mock del diseño: 
+<figure>
+    <p align="center">
+      <img src="https://raw.githubusercontent.com/Matii111/reactTest/master/mockPaginaWeb/mock.png?token=GHSAT0AAAAAAB243A2SL6ZOWXR5LLLPNZTMY3K5F5Q" width="800">
+    </p>
+  </figure>
+A continuación una imagen de cada sección del diseño anterior 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Página de inicio</h1>
+  <figure>
+    <p align="center">
+    <img src="https://github.com/Matii111/reactTest/blob/master/mockPaginaWeb/partes/sushiCoso.jpg?raw=true" width="400">
+    </p>
+  </figure>
+  <p>
+    La página de inicio tiene el diseño mostrado a continuación, en ella se puede acceder al login o registro, se puede visualizar el carro u orden, se tiene un acceso directo a las promociones, menú, extras y despacho. En primer lugar, están las promociones donde se encuentran las ofertas o productos "estrella", más abajo están la sección de menús y la sección de extras. Dentro de la sección de extras están productos adicionales a los menús tales como bebestibles, piezas adicionales, salsas, etc. Por último, está la sección de despacho lugar donde se permite ingresar una ubicación para comprobar si el envío es gratis. 
+  </p>
+  
+  <h2>Página de inicio - Al seleccionar producto</h2>
+    <p>
+      <img align="right" src="https://github.com/Matii111/reactTest/blob/master/mockPaginaWeb/partes/sushiClickProducto.jpg?raw=true" width="400">
+      Al seleccionar cualquier producto, ya sea de la sección de extras o promociones se abrirá el popup, el cual contiene una imagen del producto y su respectiva información, junto a tres botones para agregar y quitar una unidad y por último un botón para cancelar. Al agregar o eliminar productos se mostrará además el valor que incrementa en el carro.
+    </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+  <h2 align="left">Página de inicio - Al seleccionar comprobar despacho</h2>
+    <p align="left">
+      <img align="left" src="https://github.com/Matii111/reactTest/blob/master/mockPaginaWeb/partes/sushiDespacho.jpg?raw=true" width="200">
+      Al entrar a la sección de despacho, da la opción al usuario de ingresar una dirección y comprobar si es que esta ubicación cumple con los requisitos para un envío gratuito. 
+    </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+  <h2 align="left">Página de inicio - Al ingresar a la opcion de user</h2> 
+    <p>
+      <img align="left" src="https://github.com/Matii111/reactTest/blob/master/mockPaginaWeb/partes/sushiLogin.jpg?raw=true" width="400">
+      La opción user permite entrar a login para ingresar con una cuenta ya registrada o para pasar a register y crear una nueva. También posee la recuperación de contraseña.  
+    </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <h3 align="right">Al ingresar a la opcion de user - Register</h3> 
+      <p>
+        <img align="right" src="https://github.com/Matii111/reactTest/blob/master/mockPaginaWeb/partes/sushiRegister.jpg?raw=true" width="200">        
+        La opción de register permite al usuario registrar sus datos para crear una nueva cuenta. 
+      </p> 
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <h3 align="right">Al ingresar a la opcion de user - Recuperar</h3> 
+      <p>      
+        <img align="right" src="https://github.com/Matii111/reactTest/blob/master/mockPaginaWeb/partes/sushiRecuperar.jpg?raw=true" width="300" >
+        La opción de login permite a un usuario ingresar sus datos para iniciar sesión en una cuenta creada previamente. 
+      </p>  
 
-## Available Scripts
 
-In the project directory, you can run:
+  
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
