@@ -1,7 +1,9 @@
 import React from 'react';
-import PopupLogin from './login/popup';
+import LoginForm from './login/loginFormat';
+import RegisterForm from './login/registerFormat';
 let navbar;
 let sticky;
+
 class Navbar extends React.Component{
   //funcion que permite a la navbar permanecer o no en top   
   componentDidMount(){
@@ -19,7 +21,7 @@ class Navbar extends React.Component{
         navbar.classList.remove("sticky");              
     }
   }
-  render(){
+  render(){    
     return (      
       <div id="main-navigation" className="navbar navbar-expand-lg navbar-light">            
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>                          
@@ -33,7 +35,7 @@ class Navbar extends React.Component{
                 <li class="liHeader"><a href="#menus">Menus</a></li>
                 <li class="liHeader"><a href="#extras">Extras</a></li>
                 <li class="liHeader"><a href="#despacho">Despacho</a></li>                                 
-                <PopupLogin class="useroption"></PopupLogin>                                                    
+                <LoginForm></LoginForm>                                                                          
             </div>                    
         </ul>    
       </div>

@@ -79,16 +79,10 @@ form.searchbox button:hover{
   margin-left: 10px;
   font-size: 17px;
   border: none;
-}
-.useroption button{
-  padding: 6px;
-  margin-left: 5px;
-  margin-top: 10px;
-  border: none;
   background-color: #ddd;
 }
-.useroption button:hover {
-  background-color: #ccc;
+.useroption:hover {
+  
 }
 /* userButtons =====================*/
 .select{
@@ -197,3 +191,91 @@ form.searchbox button:hover{
   height: 1000px;
 }
 /* content========================= */
+.form-element{
+  color:#ddd;
+  padding: 10px;      
+  display: block;
+  text-align: center;
+}
+.form-element label[for="password"]{
+  margin-right: 110px;
+  font-weight:bold;
+}
+.form-element label[for="email"]{
+  margin-right: 60px;
+  font-weight:bold;
+}
+.form-element a{  
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #ddd;  
+  font-style: italic;
+  
+}
+.form-element a:hover{
+  color: #333;
+}
+.form-element input[type="text"],
+.form-element input[type="password"],
+.form-element input[type="tel"]{
+  display: block;    
+  background-color: #e9e9e9; 
+  float: center;
+  padding: 6px;
+  margin-top: 10px;  
+  margin-left: 140px;
+  font-size: 17px;
+  border: none;
+  border-radius: 3px;
+  width: auto;
+}
+.form-element input[type="checkbox"]{
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;  
+}
+.form-button{    
+  font-size: 17px;    
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+  background-color: #ddd;
+  margin-bottom: 10px;
+}
+.form-button:hover{
+  background-color: #333;
+}
+.form-elementRegister input[type="text"],
+.form-elementRegister input[type="password"],
+.form-elementRegister input[type="tel"]{
+  display: block;    
+  background-color: #e9e9e9; 
+  float: center;
+  padding: 6px;
+  margin-top: 10px;  
+  margin-left: 140px;
+  
+  font-size: 17px;
+  border: none;
+  border-radius: 3px;
+  width: auto;
+}
+.form-elementRegister{
+  color:#ddd;
+  padding: 10px;      
+  display: block;  
+  text-align: left;
+}
+.form-elementRegister label[for="email"],
+.form-elementRegister label[for="password"]{
+  text-align: left;
+  font-weight:bold;
+  margin-left: 140px;
+}
+.form-elementRegister button{
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 210px;
+}
+/* formLogin======================= */
