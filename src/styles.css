@@ -1,3 +1,6 @@
+@import "react-slideshow-image/dist/styles.css";
+
+
 .menuLogo{
   display: block;
   margin-left: auto;
@@ -298,3 +301,28 @@ form.searchbox button:hover{
 }
 /* formRegister======================= */
 
+.slide-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.each-slide span {
+  color: #ccc;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100px;
+  height: 480px;
+  /*border: solid 1px red;*/
+}
+
+/*slideshow =========================== */
