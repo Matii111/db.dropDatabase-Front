@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles.css';
-import Navbar from './components/navbar';
+import Navbar from './components/navbar/navbar';
 import SelectRol from './components/selectRol';
-import MenuLogo from "./components/menulogo";
-import GotTop from './components/goTop';
-import Footer from './components/footer';
+import MenuLogo from "./components/pageDesign/menulogo";
+import GotTop from './components/pageDesign/goTop';
+import Footer from './components/pageDesign/footer';
 import styled from 'styled-components';
 
 class App extends React.Component{

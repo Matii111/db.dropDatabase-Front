@@ -37,6 +37,7 @@ header {
 }
 .liHeader a:hover {
   background-color: #111;
+  transition: .3s ease all;
 }
 .sticky{
   position:fixed;
@@ -67,22 +68,26 @@ form.searchbox button{
 }
 form.searchbox button:hover{
   background: #ccc;
+  transition: .3s ease all;
 }
 /* inputConfig =====================*/
 .useroption{
   text-align: right;  
   margin-right: 10px;  
-  font-size: 17px;  
   float: right;
-  padding: 6px;
-  margin-top: 10px;
-  margin-left: 10px;
-  font-size: 17px;
-  border: none;
-  background-color: #ddd;
+  padding: 6px;  
+  border:none;
+  background:none;  
+  color: #ddd;
+  margin-top:  2px;
+}
+.useroption label{
+  font-size: 15px;
+  padding: 7px;  
 }
 .useroption:hover {
-  
+  background-color: #111;
+  transition: .3s ease all;
 }
 /* userButtons =====================*/
 .select{
@@ -95,7 +100,8 @@ form.searchbox button:hover{
   cursor: pointer;
 }
 .select:hover{
-  background-color: #ccc;
+  background-color: #b5b5b5;
+  transition: .3s ease all;
 }
 /* selectConfig ====================*/
 .topButtonStyle{
@@ -115,6 +121,7 @@ form.searchbox button:hover{
 }
 .topButtonStyle:hover{
   background-color: rgb(90, 90, 90);  
+  transition: .3s ease all;
 }
 .topButtonStyleHidden{
   display: none;
@@ -135,7 +142,8 @@ form.searchbox button:hover{
   color: #ddd;
 }
 .rrssFooter i:hover{
-  color:#111;
+  color:#5e5e5e;
+  transition: .3s ease all;
 }
 .infoFooter{
   padding-right: 100px;
@@ -165,7 +173,8 @@ form.searchbox button:hover{
   padding-right: 10px;  
 }
 .liFooter a:hover {
-  color: white;
+  color: #5e5e5e;
+  transition: .3s ease all;
 }
 .ffooter div{
   width: 100%;  
@@ -215,6 +224,7 @@ form.searchbox button:hover{
 }
 .form-element a:hover{
   color: #333;
+  transition: .3s ease all;
 }
 .form-element input[type="text"],
 .form-element input[type="password"],
@@ -245,7 +255,9 @@ form.searchbox button:hover{
 }
 .form-button:hover{
   background-color: #333;
+  transition: .3s ease all;
 }
+/* formLogin======================= */
 .form-elementRegister input[type="text"],
 .form-elementRegister input[type="password"],
 .form-elementRegister input[type="tel"]{
@@ -278,4 +290,11 @@ form.searchbox button:hover{
   text-align: center;
   margin-left: 210px;
 }
-/* formLogin======================= */
+.form-elementRegister p{
+  padding: 30px;
+  text-align: justify;
+  font-style: italic;
+  color: rgb(92, 92, 92);
+}
+/* formRegister======================= */
+

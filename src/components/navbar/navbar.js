@@ -1,6 +1,7 @@
 import React from 'react';
-import LoginForm from './login/loginFormat';
-import RegisterForm from './login/registerFormat';
+import LoginForm from '../login/loginFormat';
+import RegisterForm from '../login/registerFormat';
+import Order from './order';
 let navbar;
 let sticky;
 
@@ -35,7 +36,8 @@ class Navbar extends React.Component{
                 <li class="liHeader"><a href="#menus">Menus</a></li>
                 <li class="liHeader"><a href="#extras">Extras</a></li>
                 <li class="liHeader"><a href="#despacho">Despacho</a></li>                                 
-                <LoginForm></LoginForm>                                                                          
+                <LoginForm></LoginForm>
+                <Order></Order>                                                                      
             </div>                    
         </ul>    
       </div>
