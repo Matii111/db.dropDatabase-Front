@@ -6,6 +6,7 @@ import MenuLogo from "./components/pageDesign/menulogo";
 import GotTop from './components/pageDesign/goTop';
 import Footer from './components/pageDesign/footer';
 import styled from 'styled-components';
+import Slideshow from './components/slideshow';
 
 
 // TODO:Hay que implementar el coso de maps y las ventanas esas dinamicas de pcfactory, ademas dentro de esas hay que agregar
@@ -18,7 +19,8 @@ class App extends React.Component{
           <SelectRol></SelectRol>
           <MenuLogo></MenuLogo>                  
           <Navbar></Navbar>  
-        </header>                                          
+        </header>
+        <Slideshow></Slideshow>
         <GotTop></GotTop>            
         <div class="content">
           <body>
