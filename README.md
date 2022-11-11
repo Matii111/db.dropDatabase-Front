@@ -1,3 +1,11 @@
+# Paquetes necesarios
+### Para las slides:
+    npm install react-slideshow-image -S
+### Para los popup   
+    npm install --save styled-components
+### Para los iconos
+    npm i bootstrap-icons
+
 # Mock de diseño de la página web  
 Para mejorar la elaboración de la página web se elabora el siguiente mock del diseño: 
 <figure>
