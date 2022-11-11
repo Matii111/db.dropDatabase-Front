@@ -381,7 +381,7 @@ form.searchbox button:hover{
   border-radius: 5px;
   background-color: #333;
   width: 300px;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .producto:hover{
@@ -397,7 +397,7 @@ form.searchbox button:hover{
 .price{
 
   font-size:  2rem;
-  color: rgba(197, 41, 101, 0.897);
+  color: #fe646f;
 
 }
 
