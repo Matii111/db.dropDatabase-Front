@@ -58,7 +58,7 @@ const LoginForm =()=>{
             <PopupLogin
               statePopup={statePopup2}
               changeStatePopup={changeStatePopup2}
-              titulo="Register"              
+              titulo="Registrar"              
               logo={<img width="50" height="50" src="https://cdn.discordapp.com/attachments/352829804057329674/1040420749321711676/sushiNOTEXT.png"></img>}
               icon={
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">

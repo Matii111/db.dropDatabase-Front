@@ -10,7 +10,7 @@ const PopupLogin = ({children, statePopup, changeStatePopup, titulo ='alert', ic
           <Popup>       
             <PopupTitle>           
               {logo}
-              <h1>{titulo}</h1>                                           
+              <h1>{titulo}</h1>                    
             </PopupTitle>          
             <ButtonClose onClick={()=>changeStatePopup(false)}>
               {icon}            
@@ -44,7 +44,7 @@ const Popup = styled.div`
   background: #111;
   position: fixed;
   border-radius: 5px;
-  box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(255, 156, 156, 0.712) 0px 1px 10px 0px;
   padding:20px;
   z-index:10;
 `;
