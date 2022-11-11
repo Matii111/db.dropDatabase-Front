@@ -7,6 +7,7 @@ import GotTop from './components/pageDesign/goTop';
 import Footer from './components/pageDesign/footer';
 import styled from 'styled-components';
 import Slideshow from './components/slideshow';
+import  {Items} from './components/productos/items';
 
 
 // TODO:Hay que implementar el coso de maps y las ventanas esas dinamicas de pcfactory, ademas dentro de esas hay que agregar
@@ -24,9 +25,7 @@ class App extends React.Component{
         <GotTop></GotTop>                    
         <div class="content">
           <body>
-            <h1> bbbbbb</h1>
-            <p>            
-            </p>
+          <Items></Items>
           </body>           
         </div> 
         <Footer></Footer>    
