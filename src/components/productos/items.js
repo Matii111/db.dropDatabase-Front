@@ -5,7 +5,7 @@ import ItemFormat from './itemFormat';
 export const Items = () => {
     return (
         <>
-            <h1 className='title'>MENU</h1>
+            <h1 id="menus">MENU</h1>
             <div className='productos'>
                 <ItemFormat
                     imgProducto={<img src="https://resizer.glanacion.com/resizer/8w5gCea92coRwSB8U5n6ER_P2dk=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/AXMW5TBU55EUZO3OT4KW4473FQ.jpg" alt='producto' />}
@@ -44,8 +44,6 @@ export const Items = () => {
                 >                    
                 </ItemFormat>          
             </div>
-
-
         </>
     )
 

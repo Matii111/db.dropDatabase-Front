@@ -7,9 +7,15 @@ class Footer extends React.Component{
         <ul class="ulFooter">        
             <div class="rrssFooter">
                 <h3 class="rrssFooterH3">Redes Sociales</h3>
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                <a href='https://www.facebook.com/' target="_blank">
+                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+                <a href='https://www.instagram.com/' target="_blank">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href='https://twitter.com/' target="_blank">
                 <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                </a>
             </div>
             <div class="infoFooter">                
                 <li class="liFooter"><a class = "infoFooter" href="#">Contacto</a></li>
