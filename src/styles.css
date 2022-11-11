@@ -317,7 +317,7 @@ form.searchbox button:hover{
   align-items: center;
   justify-content: center;
   z-index:1;  
-  max-height: 700px;
+  max-height: 500px;
   max-width: 1010px;
 }
 .slideButtons{  
@@ -350,3 +350,98 @@ form.searchbox button:hover{
 }
 
 /*slideshow ======================= */
+
+.content h1{
+
+  font-size: 2rem;
+  padding: 5px 0 0 0;
+  color: #ccc;
+  height: 20px;
+
+}
+
+.productos{
+
+  padding: 100px 50px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem,1fr));
+  gap: 3rem 1rem;
+  box-sizing: border-box;
+
+}
+
+.producto{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .2);
+  border: 6px solid transparent;
+  border-radius: 5px;
+  background-color: #333;
+  width: 300px;
+  margin-left: 60px;
+}
+
+.producto:hover{
+  border: 6px solid #5e5e5e;
+  transition: .3s ease all;
+}
+
+.producto_img img{
+  width: 300px;
+  height: 200px;  
+}
+
+.price{
+
+  font-size:  2rem;
+  color: #fe646f;
+
+}
+
+.producto .boton{
+  width: 100%;
+  height: 45px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem 2rem
+}
+
+.boton .btn{
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 9px;
+  margin-left: 60px;
+}
+
+.boton button{
+  background-clip: #533;
+  max-width: 220px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #19af53;
+  font-weight: 600;
+  font-family:  sans-serif;
+}
+
+
+.content{
+  margin: auto;
+  max-width: 1010px; /*1150*/
+  min-width: 500px;
+  height: auto;  /*1600*/
+  margin: 30px auto;
+  background-image: url("https://i.pinimg.com/originals/d4/d8/87/d4d8878604da41bd93d0479d27d4e66d.jpg");
+}
+
+.menu-caract{
+  background-color: #19af53;
+  display: relative;
+}
+
+
+/*Productos ========================== */
