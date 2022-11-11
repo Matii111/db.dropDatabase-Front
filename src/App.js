@@ -7,29 +7,31 @@ import GotTop from './components/pageDesign/goTop';
 import Footer from './components/pageDesign/footer';
 import styled from 'styled-components';
 import Slideshow from './components/slideshow';
-import  {Items} from './components/productos/items';
+import ItemsMenu, { Items } from './components/productos/itemsMenu';
+import ItemsExtras from './components/productos/itemsExtras';
 
 
 // TODO:Hay que implementar el coso de maps y las ventanas esas dinamicas de pcfactory, ademas dentro de esas hay que agregar
 // productos y  para luego hacer los popup de cada uno
-class App extends React.Component{
-  render(){
+class App extends React.Component {
+  render() {
     return (
-      <div class="contentBackground">         
-        <Navbar></Navbar>           
-        <header class="header-image">
+      <div class="contentBackground">
+        <Navbar></Navbar>
+        <header id="promociones" class="header-image">
           <SelectRol></SelectRol>
-          <MenuLogo></MenuLogo>                            
+          <MenuLogo></MenuLogo>
         </header>
         <Slideshow></Slideshow>
-        <GotTop></GotTop>                    
+        <GotTop></GotTop>
         <div class="content">
           <body>
-          <Items></Items>
-          </body>           
-        </div> 
-        <Footer></Footer>    
-      </div>    
+            <ItemsMenu></ItemsMenu>
+            <ItemsExtras></ItemsExtras>
+          </body>
+        </div>
+        <Footer></Footer>
+      </div>
     );
   }
 }

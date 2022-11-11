@@ -40,8 +40,8 @@ const LoginForm =()=>{
       </div>
       <div class="form-element">
             <button class="form-button">Sign in</button>  
-            <a onClick={()=>changeStatePopup3(!statePopup3)}href="#">Olvidaste tu contraseña?</a>
-            <a onClick={()=>changeStatePopup2(!statePopup2)} href="#">Aun no te registras clickea aqui</a> 
+            <a onClick={()=>changeStatePopup3(!statePopup3)}>Olvidaste tu contraseña?</a>
+            <a onClick={()=>changeStatePopup2(!statePopup2)}>Aun no te registras clickea aqui</a> 
             <PopupLogin
               statePopup={statePopup3}
               changeStatePopup={changeStatePopup3}

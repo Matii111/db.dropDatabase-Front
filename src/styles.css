@@ -1,56 +1,63 @@
 @import "react-slideshow-image/dist/styles.css";
 
-
-.menuLogo{
+.menuLogo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 20%;
-  width: 20%;  
+  width: 20%;
   padding-bottom: 10px;
 }
+
 /* logoConfig ======================*/
-header {    
-  padding-bottom: 10px; 
+header {
+  padding-bottom: 10px;
 }
-.header-image {    
-  background: url("https://cdn.discordapp.com/attachments/352829804057329674/1039624644367491122/sushibackground.png");      
+
+.header-image {
+  background: url("https://cdn.discordapp.com/attachments/352829804057329674/1039624644367491122/sushibackground.png");
   height: 100%;
   width: 100%;
 }
+
 /* headerConfig ====================*/
 .ulHeader {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;  
+  background-color: #333;
   width: auto;
 }
+
 .liHeader {
-  float: left;  
+  float: left;
 }
+
 .liHeader a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;  
+  text-decoration: none;
 }
+
 .liHeader a:hover {
   background-color: #111;
   transition: .3s ease all;
 }
-.sticky{
-  position:fixed;
-  top:0;
+
+.sticky {
+  position: fixed;
+  top: 0;
   width: 100%;
   z-index: 100;
 }
+
 /* navbar ==========================*/
-form.searchbox input[type=text]{  
+form.searchbox input[type=text] {
   overflow: hidden;
-  background-color: #e9e9e9; 
+  background-color: #e9e9e9;
   float: left;
   padding: 6px;
   margin-top: 10px;
@@ -58,7 +65,8 @@ form.searchbox input[type=text]{
   font-size: 17px;
   border: none;
 }
-form.searchbox button{
+
+form.searchbox button {
   float: left;
   padding: 6px;
   margin-top: 10px;
@@ -68,45 +76,52 @@ form.searchbox button{
   border: none;
   cursor: pointer;
 }
-form.searchbox button:hover{
+
+form.searchbox button:hover {
   background: #ccc;
   transition: .3s ease all;
 }
+
 /* inputConfig =====================*/
-.useroption{
-  text-align: right;  
-  margin-right: 10px;  
+.useroption {
+  text-align: right;
+  margin-right: 10px;
   float: right;
-  padding: 6px;  
-  border:none;
-  background:none;  
+  padding: 6px;
+  border: none;
+  background: none;
   color: #ddd;
-  margin-top:  2px;
+  margin-top: 2px;
 }
-.useroption label{
+
+.useroption label {
   font-size: 15px;
-  padding: 7px;  
+  padding: 7px;
 }
+
 .useroption:hover {
   background-color: #111;
   transition: .3s ease all;
 }
+
 /* userButtons =====================*/
-.select{
+.select {
   margin-left: 10px;
   padding: 6px;
-  margin-top: 10px;  
+  margin-top: 10px;
   background: #ddd;
   font-size: 17px;
   border: none;
   cursor: pointer;
 }
-.select:hover{
+
+.select:hover {
   background-color: #b5b5b5;
   transition: .3s ease all;
 }
+
 /* selectConfig ====================*/
-.topButtonStyle{
+.topButtonStyle {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -119,152 +134,177 @@ form.searchbox button:hover{
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 4px;  
+  border-radius: 4px;
 }
-.topButtonStyle:hover{
-  background-color: rgb(90, 90, 90);  
+
+.topButtonStyle:hover {
+  background-color: rgb(90, 90, 90);
   transition: .3s ease all;
 }
-.topButtonStyleHidden{
+
+.topButtonStyleHidden {
   display: none;
 }
+
 /* topbutton ====================== */
-.rrssFooter{
+.rrssFooter {
   padding-right: 100px;
   padding-left: 100px;
   margin-top: 0px;
 }
-.rrssFooterH3{
+
+.rrssFooterH3 {
   color: #ddd;
   margin-top: 0px;
 }
-.rrssFooter i{
+
+.rrssFooter i {
   padding-right: 10px;
   margin-left: 9px;
   color: #ddd;
 }
-.rrssFooter i:hover{
-  color:#5e5e5e;
+
+.rrssFooter i:hover {
+  color: #5e5e5e;
   transition: .3s ease all;
 }
-.infoFooter{
+
+.infoFooter {
   padding-right: 100px;
   padding-left: 100px;
 }
-.cartaFooter{
+
+.cartaFooter {
   padding-right: 100px;
   padding-left: 100px;
   padding-bottom: 16px;
 }
-.ulFooter {  
-  list-style-type: none;  
-  padding: 50px;  
+
+.ulFooter {
+  list-style-type: none;
+  padding: 50px;
   overflow: hidden;
-  background-color: #111;  
-  display:flex; 
+  background-color: #111;
+  display: flex;
   text-align: left;
-  margin-top: 0px;    
+  margin-top: 0px;
   margin-bottom: 0px;
 }
+
 .liFooter a {
   display: block;
   color: #ddd;
-  text-align: left;  
-  text-decoration: none;  
+  text-align: left;
+  text-decoration: none;
   padding-left: 0px;
-  padding-right: 10px;  
+  padding-right: 10px;
 }
+
 .liFooter a:hover {
   color: #5e5e5e;
   transition: .3s ease all;
 }
-.ffooter div{
-  width: auto;  
+
+.ffooter div {
+  width: auto;
   height: auto;
-  margin:auto;
-  text-align: center;  
+  margin: auto;
+  text-align: center;
 }
-.logoFooter{
+
+.logoFooter {
   display: block;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
   height: 100px;
-  width: 100px;  
-  padding-bottom: 10px; 
-  bottom: 0; 
+  width: 100px;
+  padding-bottom: 10px;
+  bottom: 0;
 }
+
 /* footer ========================= */
-.contentBackground{
+.contentBackground {
   height: auto;
   width: auto;
-  z-index:0;
-  background-image: url("https://cdn.discordapp.com/attachments/352829804057329674/1040435343473786931/pageBackground.png");  
+  z-index: 0;
+  background-image: url("https://cdn.discordapp.com/attachments/352829804057329674/1040435343473786931/pageBackground.png");
 }
-.content{
+
+.content {
   text-align: center;
-  margin: 10px;    
-  border:solid;   
+  margin: 10px;
+  border: solid;
+  box-shadow: 1px 1px 10px 2px rgba(255, 156, 156, 0.712);
 }
-.content h1{
+
+.content h1 {
   height: 1000px;
 }
 
 /* content========================= */
-.form-element{
-  color:#ddd;
-  padding: 10px;      
+.form-element {
+  color: #ddd;
+  padding: 10px;
   display: block;
   text-align: center;
 }
-.form-element label[for="password"]{
+
+.form-element label[for="password"] {
   margin-right: 110px;
-  font-weight:bold;
+  font-weight: bold;
 }
-.form-element label[for="email"]{
+
+.form-element label[for="email"] {
   margin-right: 60px;
-  font-weight:bold;
+  font-weight: bold;
 }
-.form-element a{  
+
+.form-element a {
   display: block;
   text-align: center;
   text-decoration: none;
-  color: #ddd;  
+  color: #ddd;
   font-style: italic;
-  
+
 }
-.form-element a:hover{
+
+.form-element a:hover {
   color: #333;
   transition: .3s ease all;
 }
+
 .form-element input[type="text"],
 .form-element input[type="password"],
-.form-element input[type="tel"]{
-  display: block;    
-  background-color: #e9e9e9; 
+.form-element input[type="tel"] {
+  display: block;
+  background-color: #e9e9e9;
   float: center;
   padding: 6px;
-  margin-top: 10px;  
+  margin-top: 10px;
   margin-left: 140px;
   font-size: 17px;
   border: none;
   border-radius: 3px;
   width: auto;
 }
-.form-element input[type="checkbox"]{
+
+.form-element input[type="checkbox"] {
   margin-right: 10px;
   width: 15px;
-  height: 15px;  
-  accent-color:#fe646f;
+  height: 15px;
+  accent-color: #fe646f;
 }
-.form-button{    
-  font-size: 17px;    
+
+.form-button {
+  font-size: 17px;
   padding: 6px;
   font-size: 17px;
   border: none;
   background-color: #ddd;
   margin-bottom: 10px;
 }
-.form-button:hover{
+
+.form-button:hover {
   background-color: #333;
   transition: .3s ease all;
 }
@@ -273,177 +313,212 @@ form.searchbox button:hover{
 /* formLogin======================= */
 .form-elementRegister input[type="text"],
 .form-elementRegister input[type="password"],
-.form-elementRegister input[type="tel"]{
-  display: block;    
-  background-color: #e9e9e9; 
+.form-elementRegister input[type="tel"] {
+  display: block;
+  background-color: #e9e9e9;
   float: center;
   padding: 6px;
-  margin-top: 10px;  
+  margin-top: 10px;
   margin-left: 140px;
-  
+
   font-size: 17px;
   border: none;
   border-radius: 3px;
   width: auto;
 }
-.form-elementRegister{
-  color:#ddd;
-  padding: 10px;      
-  display: block;  
+
+.form-elementRegister {
+  color: #ddd;
+  padding: 10px;
+  display: block;
   text-align: left;
 }
+
 .form-elementRegister label[for="email"],
-.form-elementRegister label[for="password"]{
+.form-elementRegister label[for="password"] {
   text-align: left;
-  font-weight:bold;
+  font-weight: bold;
   margin-left: 140px;
 }
-.form-elementRegister button{
+
+.form-elementRegister button {
   margin-top: 30px;
   text-align: center;
   margin-left: 210px;
 }
-.form-elementRegister p{
+
+.form-elementRegister p {
   padding: 30px;
   text-align: justify;
   font-style: italic;
   color: rgb(92, 92, 92);
 }
+
 /* formRegister==================== */
 
 .slide-container {
   margin: 1em auto;
   align-items: center;
   justify-content: center;
-  z-index:1;  
+  z-index: 1;
   max-height: 500px;
   max-width: 1010px;
 }
-.slideButtons{  
+
+.slideButtons {
   text-align: center;
   color: #111;
   border: none;
   background: none;
   margin-left: 10px;
-  margin-right: 10px;    
-  margin-top: 300px;  
+  margin-right: 10px;
+  margin-top: 300px;
   opacity: 0.5;
-  z-index:1;  
+  z-index: 1;
 }
-.slideButtons:hover{
+
+.slideButtons:hover {
   opacity: 1;
-  z-index:1;  
+  z-index: 1;
+  transition: .5 ease all;
 }
-.each-slide > div {
+
+.each-slide>div {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover;  
+  background-size: cover;
   background-position: center;
   min-width: 100%;
   height: 500px;
   width: 1010px;
-  z-index:1;
+  z-index: 1;
   overflow: hidden;
-  
+
 }
 
 /*slideshow ======================= */
-
-.content h1{
-
+.content h1 {
   font-size: 2rem;
   padding: 5px 0 0 0;
   color: #ccc;
   height: 20px;
-
 }
 
-.productos{
-
-  padding: 100px 50px;
+.productos {
+  padding: 10px 50px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 2rem 4rem;
   box-sizing: border-box;
-
 }
 
-.producto{
-
+.producto {
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .2);
   border: 6px solid transparent;
   border-radius: 5px;
-  background-color: #333;
+  background-color: #111;
   width: 300px;
+  height: 430px;
   margin-left: -23px;
+  z-index: 3;
+  position: relative;
 }
-
-.producto:hover{
-  border: 6px solid #5e5e5e;
-  transition: .3s ease all;
+.description{  
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;  
+  position: absolute;  
+  z-index: 1;     
 }
-
-.producto_img img{
+.descriptionInfo{
+  display: flex;
+  opacity: 0;
+  z-index: 2;  
+  overflow:hidden;
+  height: 340px;
   width: 300px;
-  height: 200px;  
+  font-size: 20px;
+}
+.descriptionItems {
+  top: 0;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  z-index: 1;
+}
+.descriptionInfo:hover{
+  opacity: 1;      
+}
+.descriptionInfo:hover+.descriptionItems{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  transition: ease all;
+}
+.producto_img img {
+  width: 300px;
+  height: 200px;
 }
 
-.price{
-
-  font-size:  2rem;
+.price {
+  font-size: 2rem;
   color: #fe646f;
-
 }
 
-.producto .boton{
+.producto .boton {
   width: 100%;
   height: 45px;
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 1rem 2rem;
-
 }
 
-.boton .btn{
+.boton .btn {
   border: none;
   outline: 0;
   cursor: pointer;
   border-radius: 9px;
   margin-left: 60px;
   margin-top: -10px;
-  margin-bottom: 10px;
+  margin-bottom: 10px;  
 }
 
-.boton button{
+.boton button {
   background-clip: #533;
   max-width: 220px;
   width: 100%;
   margin: 0 auto;
   font-size: 1rem;
-  color: #19af53;
+  color: #fe646f;
   font-weight: 600;
-  font-family:  sans-serif;
+  font-family: sans-serif;  
 }
 
-
-.content{
+.boton button:hover{
+  color:#333;
+  transition: .3s ease all;
+}
+.content {
   margin: auto;
-  max-width: 1010px; /*1150*/
+  max-width: 1010px;
+  /*1150*/
   min-width: 500px;
-  height: auto;  /*1600*/
+  height: auto;
+  /*1600*/
   margin: 30px auto;
-  background-image: url("https://i.pinimg.com/originals/d4/d8/87/d4d8878604da41bd93d0479d27d4e66d.jpg");
+  background-color: #111;
 }
 
-.menu-caract{
-  background-color: #19af53;
+.menu-caract {
+  background-color: #fe646f;
   display: relative;
 }
-
 
 /*Productos ========================== */
