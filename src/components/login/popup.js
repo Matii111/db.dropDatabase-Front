@@ -2,19 +2,20 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 //TODO:El popup va joya , lo unico es que no cambia de tamanio con la pagina , no recuerdo la palabra pero no es 
 //"adaptable"
-const PopupLogin = ({children, statePopup, changeStatePopup, titulo ='alert', icon}) =>{
+const PopupLogin = ({children, statePopup, changeStatePopup, titulo ='alert', icon, logo}) =>{
   return(
     <> 
       {statePopup &&
         <DarkBackground>
           <Popup>       
-            <PopupTitle> 
-              <h1>{titulo}</h1>                             
+            <PopupTitle>           
+              {logo}
+              <h1>{titulo}</h1>                                           
             </PopupTitle>          
             <ButtonClose onClick={()=>changeStatePopup(false)}>
               {icon}            
             </ButtonClose>
-            {children}
+            {children}            
           </Popup>
         </DarkBackground>
       }
@@ -34,6 +35,7 @@ const DarkBackground = styled.div`
   display: flex;
   align-item: center;
   justify-content: center;
+  z-index:10;
 
   `;  
 const Popup = styled.div`
@@ -44,6 +46,7 @@ const Popup = styled.div`
   border-radius: 5px;
   box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
   padding:20px;
+  z-index:10;
 `;
 const ButtonClose = styled.div`
   position: absolute;
@@ -64,6 +67,7 @@ const ButtonClose = styled.div`
     width:100%;
     height:100%;
   }
+  z-index:10;
 `;
 const PopupTitle = styled.div`
   display:flex;
@@ -74,4 +78,5 @@ const PopupTitle = styled.div`
   h1{
     color:#ddd;
   }
+  z-index:10;
 `;

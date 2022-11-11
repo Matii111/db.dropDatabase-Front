@@ -14,14 +14,14 @@ import Slideshow from './components/slideshow';
 class App extends React.Component{
   render(){
     return (
-      <div>                  
+      <div class="contentBackground">         
+        <Navbar></Navbar>           
         <header class="header-image">
           <SelectRol></SelectRol>
-          <MenuLogo></MenuLogo>                  
-          <Navbar></Navbar>  
+          <MenuLogo></MenuLogo>                            
         </header>
         <Slideshow></Slideshow>
-        <GotTop></GotTop>            
+        <GotTop></GotTop>                    
         <div class="content">
           <body>
             <h1> bbbbbb</h1>
