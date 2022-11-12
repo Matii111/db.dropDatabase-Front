@@ -522,3 +522,6 @@ form.searchbox button:hover {
 }
 
 /*Productos ========================== */
+.searchbox{
+  align-items: right;
+}
