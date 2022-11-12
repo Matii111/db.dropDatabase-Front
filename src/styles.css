@@ -146,7 +146,7 @@ form.searchbox button:hover {
   display: none;
 }
 
-/* topbutton ====================== */
+/* topbutton =======================*/
 .rrssFooter {
   padding-right: 100px;
   padding-left: 100px;
@@ -222,7 +222,7 @@ form.searchbox button:hover {
   bottom: 0;
 }
 
-/* footer ========================= */
+/* footer ==========================*/
 .contentBackground {
   height: auto;
   width: auto;
@@ -241,7 +241,7 @@ form.searchbox button:hover {
   height: 1000px;
 }
 
-/* content========================= */
+/* content==========================*/
 .form-element {
   color: #ddd;
   padding: 10px;
@@ -310,7 +310,7 @@ form.searchbox button:hover {
 }
 
 
-/* formLogin======================= */
+/* formLogin========================*/
 .form-elementRegister input[type="text"],
 .form-elementRegister input[type="password"],
 .form-elementRegister input[type="tel"] {
@@ -354,7 +354,7 @@ form.searchbox button:hover {
   color: rgb(92, 92, 92);
 }
 
-/* formRegister==================== */
+/* formRegister=====================*/
 
 .slide-container {
   margin: 1em auto;
@@ -397,7 +397,7 @@ form.searchbox button:hover {
 
 }
 
-/*slideshow ======================= */
+/* slideshow =======================*/
 .content h1 {
   font-size: 2rem;
   padding: 5px 0 0 0;
@@ -428,25 +428,28 @@ form.searchbox button:hover {
   z-index: 3;
   position: relative;
 }
-.description{  
+
+.description {
   top: 0;
   left: 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  display: flex;  
-  position: absolute;  
-  z-index: 1;     
+  display: flex;
+  position: absolute;
+  z-index: 1;
 }
-.descriptionInfo{
+
+.descriptionInfo {
   display: flex;
   opacity: 0;
-  z-index: 2;  
-  overflow:hidden;
+  z-index: 2;
+  overflow: hidden;
   height: 340px;
   width: 300px;
   font-size: 20px;
 }
+
 .descriptionItems {
   top: 0;
   left: 0;
@@ -454,14 +457,17 @@ form.searchbox button:hover {
   position: absolute;
   z-index: 1;
 }
-.descriptionInfo:hover{
-  opacity: 1;      
+
+.descriptionInfo:hover {
+  opacity: 1;
 }
-.descriptionInfo:hover+.descriptionItems{
+
+.descriptionInfo:hover+.descriptionItems {
   filter: blur(8px);
   -webkit-filter: blur(8px);
   transition: ease all;
 }
+
 .producto_img img {
   width: 300px;
   height: 200px;
@@ -487,7 +493,7 @@ form.searchbox button:hover {
   border-radius: 9px;
   margin-left: 60px;
   margin-top: -10px;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
 
 .boton button {
@@ -498,13 +504,14 @@ form.searchbox button:hover {
   font-size: 1rem;
   color: #fe646f;
   font-weight: 600;
-  font-family: sans-serif;  
+  font-family: sans-serif;
 }
 
-.boton button:hover{
-  color:#333;
+.boton button:hover {
+  color: #333;
   transition: .3s ease all;
 }
+
 .content {
   margin: auto;
   max-width: 1010px;
@@ -521,7 +528,22 @@ form.searchbox button:hover {
   display: relative;
 }
 
-/*Productos ========================== */
-.searchbox{
+/* Productos =======================*/
+.searchbox {
   align-items: right;
 }
+
+/*==============CONFIGS=============*/
+/* logoConfig ======================*/
+/* headerConfig ====================*/
+/* navbar ==========================*/
+/* inputConfig =====================*/
+/* userButtons =====================*/
+/* selectConfig ====================*/
+/* topbutton =======================*/
+/* footer ==========================*/
+/* content==========================*/
+/* formLogin========================*/
+/* formRegister=====================*/
+/* slideshow =======================*/
+/* Productos =======================*/

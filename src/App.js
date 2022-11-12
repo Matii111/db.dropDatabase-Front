@@ -11,8 +11,21 @@ import ItemsMenu, { Items } from './components/productos/itemsMenu';
 import ItemsExtras from './components/productos/itemsExtras';
 import MapDelivery from './components/map/mapDelivery';
 
-// TODO:Hay que implementar el coso de maps y las ventanas esas dinamicas de pcfactory, ademas dentro de esas hay que agregar
-// productos y  para luego hacer los popup de cada uno
+//TODO:Hacer que el mapa de alguna forma tenga una caja de texto para ingresar direcciones
+
+//TODO:Hacer que el button de aniadir al carro agregue algo(? puede que eso sea de back 
+//pero al menos dejar una accion que sume +1 junto al icono de comprobar orden
+
+//TODO:Crear nuevo POPUP para el formato de comprobar orden, tiene que mostrar algo 
+//parecido al mock (mostrar precio total, productos agregados, costo de envio, costo total)
+
+//TODO:Crear acceso a nueva pagina/ventana para el usuario (se mostraran sus datos y se 
+//hara lo del reembolso)
+
+//TODO:Para la lista de productos de  COMPROBAR ORDEN y para las COMPRAS REALIZADAS se tiene
+//que crear una ventana con SCROLL
+
+
 class App extends React.Component {
   render() {
     return (
@@ -31,16 +44,16 @@ class App extends React.Component {
               <ItemsExtras></ItemsExtras>
               <h1 id="despacho">Despacho</h1>
               <div style={
-                { 
-                border: "1px", 
-                width: "500px", 
-                height: "300px",
-                margin:"20px",
-                padding:"20px",      
-                paddingLeft:"230px",              
-                zIndex:"1"       
-                }}>                        
-                <MapDelivery />                                
+                {
+                  border: "1px",
+                  width: "500px",
+                  height: "300px",
+                  margin: "20px",
+                  padding: "20px",
+                  paddingLeft: "230px",
+                  zIndex: "1"
+                }}>
+                <MapDelivery />
               </div>
             </body>
           </div>

@@ -5,7 +5,7 @@ import '../../styles.css';
 export const ItemsMenu = () => {
     return (
         <>
-            
+
             <h1 id="menus">MENÚS</h1>
             <div className='productos'>
                 <ItemFormat
@@ -29,7 +29,7 @@ export const ItemsMenu = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
-                    sushisushisushisushisushisushisussushi' 
+                    sushisushisushisushisushisushisussushi'
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -53,7 +53,7 @@ export const ItemsMenu = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
-                    sushisushisushisushisushisushisussushi' 
+                    sushisushisushisushisushisushisussushi'
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -77,7 +77,7 @@ export const ItemsMenu = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
-                    sushisushisushisushisushisushisussushi'  
+                    sushisushisushisushisushisushisussushi'
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -101,7 +101,7 @@ export const ItemsMenu = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
-                    sushisushisushisushisushisushisussushi' 
+                    sushisushisushisushisushisushisussushi'
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -125,7 +125,7 @@ export const ItemsMenu = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
-                    sushisushisushisushisushisushisussushi' 
+                    sushisushisushisushisushisushisussushi'
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -149,10 +149,10 @@ export const ItemsMenu = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
-                    sushisushisushisushisushisushisussushi' 
+                    sushisushisushisushisushisushisussushi'
                 >
                 </ItemFormat>
-            </div>            
+            </div>
         </>
     )
 

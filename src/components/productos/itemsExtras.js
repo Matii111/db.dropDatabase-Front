@@ -28,7 +28,7 @@ export const ItemsExtras = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
-                    sushisushisushisushisushisushisussushi' 
+                    sushisushisushisushisushisushisussushi'
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -52,7 +52,7 @@ export const ItemsExtras = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
-                    sushisushisushisushisushisushisussushi' 
+                    sushisushisushisushisushisushisussushi'
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -76,7 +76,7 @@ export const ItemsExtras = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
-                    sushisushisushisushisushisushisussushi' 
+                    sushisushisushisushisushisushisussushi'
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -100,7 +100,7 @@ export const ItemsExtras = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
-                    sushisushisushisushisushisushisussushi' 
+                    sushisushisushisushisushisushisussushi'
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -124,7 +124,7 @@ export const ItemsExtras = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
-                    sushisushisushisushisushisushisussushi' 
+                    sushisushisushisushisushisushisussushi'
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -148,10 +148,10 @@ export const ItemsExtras = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
-                    sushisushisushisushisushisushisussushi' 
+                    sushisushisushisushisushisushisussushi'
                 >
                 </ItemFormat>
-            </div>            
+            </div>
         </>
     )
 
