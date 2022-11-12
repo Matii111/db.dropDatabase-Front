@@ -1,5 +1,5 @@
 import React from 'react';
-import datos from '../mocking/perfiles';
+import datos from '../../mocking/perfiles'
 class SelectRol extends React.Component{
   render(){
     return (          
