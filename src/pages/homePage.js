@@ -1,15 +1,15 @@
 import React from 'react';
-import './styles.css';
-import Navbar from './components/navbar/navbar';
-import SelectRol from './components/pageDesign/selectRol';
-import MenuLogo from "./components/pageDesign/menulogo";
-import GotTop from './components/pageDesign/goTop';
-import Footer from './components/pageDesign/footer';
+import '../styles.css';
+import Navbar from '../components/navbar/navbar';
+import SelectRol from '../components/pageDesign/selectRol';
+import MenuLogo from "../components/pageDesign/menulogo";
+import GotTop from '../components/pageDesign/goTop';
+import Footer from '../components/pageDesign/footer';
 import styled from 'styled-components';
-import Slideshow from './components/pageDesign/slideshow';
-import ItemsMenu, { Items } from './components/productos/itemsMenu';
-import ItemsExtras from './components/productos/itemsExtras';
-import MapDelivery from './components/map/mapDelivery';
+import Slideshow from '../components/pageDesign/slideshow';
+import ItemsMenu, { Items } from '../components/productos/itemsMenu';
+import ItemsExtras from '../components/productos/itemsExtras';
+import MapDelivery from '../components/map/mapDelivery';
 
 //TODO:Hacer que el mapa de alguna forma tenga una caja de texto para ingresar direcciones
 
@@ -26,7 +26,7 @@ import MapDelivery from './components/map/mapDelivery';
 //que crear una ventana con SCROLL
 
 
-class App extends React.Component {
+class HomePage extends React.Component {
   render() {
     return (
       <>
@@ -68,4 +68,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default HomePage;

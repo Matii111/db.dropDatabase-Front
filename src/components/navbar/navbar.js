@@ -32,10 +32,11 @@ class Navbar extends React.Component {
             <button type="submit"><i class="fa fa-search"></i></button>
           </form>
           <div>
-            <li class="liHeader"><a href="#promociones">Promociones</a></li>
-            <li class="liHeader"><a href="#menus">Menus</a></li>
-            <li class="liHeader"><a href="#extras">Extras</a></li>
-            <li class="liHeader"><a href="#despacho">Despacho</a></li>
+            <li class="liHeader"><a href="/home#promociones">Promociones</a></li>
+            <li class="liHeader"><a href="/home#menus">Menus</a></li>
+            <li class="liHeader"><a href="/home#extras">Extras</a></li>
+            <li class="liHeader"><a href="/home#despacho">Despacho</a></li>
+            <li class="liHeader"><a href="/user">PAGINA USUARIO</a></li>
             <LoginForm></LoginForm>
             <Order></Order>
           </div>
