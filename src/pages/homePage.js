@@ -42,20 +42,11 @@ class HomePage extends React.Component {
             <body>
               <ItemsMenu></ItemsMenu>
               <ItemsExtras></ItemsExtras>
-              <h1 id="despacho">Despacho</h1>
-              <div style={
-                {
-                  border: "1px",
-                  width: "500px",
-                  height: "300px",
-                  margin: "20px",
-                  padding: "20px",
-                  paddingLeft: "230px",
-                  zIndex: "1"
-                }}>
-                <MapDelivery />
-              </div>
-            </body>
+            </body>            
+            <h1 id="despacho">Despacho</h1>                      
+            <div class="mapContainer">    
+              <MapDelivery />  
+            </div>           
           </div>
           <Footer></Footer>
         </div>

@@ -10,7 +10,7 @@ const markerIcon = L.icon({
 });
 export default function MapDelivery() {
     return (
-        <MapContainer center={position} zoom={20} style={{ width: '100%', height: '100%' }}>
+        <MapContainer center={position} zoom={20} className="mapFormat">
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -21,3 +21,4 @@ export default function MapDelivery() {
 
     )
 }
+

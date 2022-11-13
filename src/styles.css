@@ -188,7 +188,7 @@ form.searchbox button:hover {
   display: flex;
   text-align: left;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 0px;  
 }
 
 .liFooter a {
@@ -205,7 +205,7 @@ form.searchbox button:hover {
   transition: .3s ease all;
 }
 
-.ffooter div {
+.ffooter div {  
   width: auto;
   height: auto;
   margin: auto;
@@ -235,6 +235,7 @@ form.searchbox button:hover {
   margin: 10px;
   border: solid;
   box-shadow: 1px 1px 10px 2px rgba(255, 156, 156, 0.712);
+  display: relative;
 }
 
 .content h1 {
@@ -448,6 +449,7 @@ form.searchbox button:hover {
   height: 340px;
   width: 300px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .descriptionItems {
@@ -455,7 +457,7 @@ form.searchbox button:hover {
   left: 0;
   opacity: 1;
   position: absolute;
-  z-index: 1;
+  z-index: 1;    
 }
 
 .descriptionInfo:hover {
@@ -465,7 +467,7 @@ form.searchbox button:hover {
 .descriptionInfo:hover+.descriptionItems {
   filter: blur(8px);
   -webkit-filter: blur(8px);
-  transition: ease all;
+  transition: ease all;  
 }
 
 .producto_img img {
@@ -523,15 +525,64 @@ form.searchbox button:hover {
   background-color: #111;
 }
 
+
 .menu-caract {
   background-color: #fe646f;
   display: relative;
 }
-
 /* Productos =======================*/
-.searchbox {
-  align-items: right;
+.seccionUsuario{
+  font-size: 40px;
+  color: #ccc;
+  padding-left: 60px;
 }
+.userPageInfo{
+  color: #ddd;
+  padding: 10px;
+  display: block;
+  text-align: left;
+}
+.userPageInfo h2{
+  font-size: 40px;
+  color: #ccc;
+  padding-left: 60px;
+}
+.userPageInfo input[type="editable"],
+.userPageInfo input[type="non-editable"]{
+  display: block;
+  background-color: #e9e9e9;
+  float: center;
+  padding: 6px;
+  margin-top: 10px;
+  margin-left: 55px;
+  font-size: 17px;
+  border: none;
+  border-radius: 3px;
+  width: auto;
+}
+.userPageInfo input[type="non-editable"]{
+  pointer-events: none;
+}
+.userPageInfo label[for="email"],
+.userPageInfo label[for="password"] {
+  text-align: left;
+  font-weight: bold;
+  margin-left: 55px;    
+}
+.mapFormat{  
+  height: 300px;
+  width: auto;  
+  z-index: 2;  
+}
+.mapContainer{  
+  height: auto;
+  width: auto;
+  margin-top: 30px;
+  margin: 50px;
+  overflow: hidden;
+}
+/* UserData ========================*/ 
+
 
 /*==============CONFIGS=============*/
 /* logoConfig ======================*/
