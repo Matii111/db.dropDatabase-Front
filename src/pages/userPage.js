@@ -7,6 +7,7 @@ import GotTop from '../components/pageDesign/goTop';
 import Footer from '../components/pageDesign/footer';
 import styled from 'styled-components';
 import UserData from '../components/userPage/userData';
+import ScrollWindow from '../components/userPage/scrollWindow';
 
 class UserPage extends React.Component {
   render() {
@@ -21,6 +22,7 @@ class UserPage extends React.Component {
           <GotTop></GotTop>
           <div class="content">
             <body>
+              <ScrollWindow />
               <UserData></UserData>
             </body>
           </div>

@@ -29,6 +29,7 @@ export const ItemsExtras = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi'
+                    BUTTON={true}
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -53,6 +54,7 @@ export const ItemsExtras = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi'
+                    BUTTON={true}
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -77,6 +79,7 @@ export const ItemsExtras = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi'
+                    BUTTON={true}
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -101,6 +104,7 @@ export const ItemsExtras = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi'
+                    BUTTON={true}
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -125,6 +129,7 @@ export const ItemsExtras = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi'
+                    BUTTON={true}
                 >
                 </ItemFormat>
                 <ItemFormat
@@ -149,6 +154,7 @@ export const ItemsExtras = () => {
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi\
                     sushisushisushisushisushisushisussushi'
+                    BUTTON={true}
                 >
                 </ItemFormat>
             </div>

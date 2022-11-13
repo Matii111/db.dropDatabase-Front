@@ -1,8 +1,9 @@
 import React from 'react';
 
 
-export const ItemFormat = ({ imgProducto, priceProducto, nameProducto, descriptionProduct }) => {
-    return (
+export const ItemFormat = ({ imgProducto, priceProducto, nameProducto, descriptionProduct, BUTTON }) => {    
+ 
+    return (        
         <>
             <div className='producto'>
                 <div className="description">
@@ -22,11 +23,14 @@ export const ItemFormat = ({ imgProducto, priceProducto, nameProducto, descripti
                             </div>
                         </div>
                         <div>
+                            
+                            {BUTTON &&                     
                             <div className='boton'>
                                 <button className='btn'>
                                     Añadir al carrito
                                 </button>
                             </div>
+                            }
                         </div>
                     </div>
                 </div>
