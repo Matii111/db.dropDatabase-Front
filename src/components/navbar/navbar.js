@@ -36,7 +36,6 @@ class Navbar extends React.Component {
             <li class="liHeader"><a href="/home#menus">Menus</a></li>
             <li class="liHeader"><a href="/home#extras">Extras</a></li>
             <li class="liHeader"><a href="/home#despacho">Despacho</a></li>
-            <li class="liHeader"><a href="/user">PAGINA USUARIO</a></li>
             <LoginForm></LoginForm>
             <Order></Order>
           </div>
