@@ -16,8 +16,10 @@ header {
 
 .header-image {
   background: url("https://cdn.discordapp.com/attachments/352829804057329674/1039624644367491122/sushibackground.png");
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;  
+  border-bottom-style: solid;
+  border-bottom-color: #fe646f;
 }
 
 /* headerConfig ====================*/
@@ -227,7 +229,7 @@ form.searchbox button:hover {
   height: auto;
   width: auto;
   z-index: 0;
-  background-image: url("https://cdn.discordapp.com/attachments/352829804057329674/1040435343473786931/pageBackground.png");
+  background-image: url("https://media.discordapp.net/attachments/352829804057329674/1041552470284972074/sushiBackground.png?width=657&height=657");
 }
 
 .content {
@@ -676,10 +678,11 @@ margin: 0px;
 .scrollOrderPrices{   
   width: 100px;
   height: 100px;
+  flex: left;
 }
 .scrollOrderPrices .direcciones{
   width: 786px;
-  height: 150px;
+  height: 200px;  
 }
 .scrollOrderPrices h2{  
   font-size: 25px;
@@ -687,7 +690,10 @@ margin: 0px;
 }
 .direcciones h2{
   font-size: 15px;
-  margin-left: 10px;
+  margin-left: 10px;    
+}
+.pay .form-button{
+  margin-left: 700px;      
 }
 /* order ===========================*/
 

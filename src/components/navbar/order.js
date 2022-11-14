@@ -78,11 +78,16 @@ const Order = () => {
               <h2>
                 Total despacho:
               </h2>
-              <h2 style={{fontSize:"20px"}}>
-                Total:
+              <h2>
+                Subtotal:
               </h2>
-                                
-            </body>
+              <h2 style={{fontSize:"20px", width:"100px"}}>                
+                Total:                                
+                <div class="pay">
+                <button class="form-button">Pagar</button>     
+              </div> 
+              </h2>
+            </body>            
           </div>
         </div>    
       </OrderPopup>

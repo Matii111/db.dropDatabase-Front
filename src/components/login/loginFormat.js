@@ -7,8 +7,8 @@ const LoginForm = () => {
   const [statePopup1, changeStatePopup1] = useState(false);
   const [statePopup2, changeStatePopup2] = useState(false);
   const [statePopup3, changeStatePopup3] = useState(false);
-  const sesionUsuario = false;  
-  const paginaUsuario = true;
+  const sesionUsuario = true;  
+  const paginaUsuario = false;
   return (
     
     <div>      

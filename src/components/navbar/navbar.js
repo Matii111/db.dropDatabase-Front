@@ -25,17 +25,17 @@ class Navbar extends React.Component {
   render() {
     return (
       <div id="main-navigation" className="navbar navbar-expand-lg navbar-light">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" ></link>
         <ul class="ulHeader">
           <form class="searchbox">
             <input type="text" placeholder="Hosomaki..."></input>
             <button type="submit"><i class="fa fa-search"></i></button>
           </form>
           <div>
-            <li class="liHeader"><a href="/home#promociones">Promociones</a></li>
-            <li class="liHeader"><a href="/home#menus">Menus</a></li>
-            <li class="liHeader"><a href="/home#extras">Extras</a></li>
-            <li class="liHeader"><a href="/home#despacho">Despacho</a></li>
+            <li class="liHeader"><a href="/home#promociones" rel="noreferrer noopener">Promociones</a></li>
+            <li class="liHeader"><a href="/home#menus" rel="noreferrer noopener">Menus</a></li>
+            <li class="liHeader"><a href="/home#extras" rel="noreferrer noopener">Extras</a></li>
+            <li class="liHeader"><a href="/home#despacho" rel="noreferrer noopener">Despacho</a></li>
             <LoginForm></LoginForm>
             <Order></Order>
           </div>
