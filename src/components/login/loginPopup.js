@@ -78,4 +78,5 @@ const PopupTitle = styled.div`
     color:#ddd;
   }
   z-index:10;
+  cursor: pointer;
 `;

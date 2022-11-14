@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import PopupLogin from './popup';
+import PopupLogin from './loginPopup';
 import RegisterForm from './registerFormat';
 import styled from 'styled-components';
 import RecoverPass from './recoverPassFormat';
@@ -30,8 +30,6 @@ const LoginForm = () => {
       </button>
       </a>
       }
-
-
       <PopupLogin
         statePopup={statePopup1}
         changeStatePopup={changeStatePopup1}

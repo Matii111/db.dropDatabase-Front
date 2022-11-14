@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import ItemFormat from '../productos/itemFormat';
 import ScrollWindowHistorial from './scrollHistorial';
-const ScrollWindow = () => {
+const ScrollWindow = ({titulo}) => {
     return (
         <>
             <div>
-                <ScrollWindowHistorial></ScrollWindowHistorial>
-            </div>
-            <div>
+                <ScrollWindowHistorial
+                titulo={titulo}
+                />
             </div>
         </>
     );

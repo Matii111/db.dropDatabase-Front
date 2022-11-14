@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import PopupLogin from './popup';
+import PopupLogin from './loginPopup';
 import styled from 'styled-components';
 const RegisterForm = () => {
       return (

@@ -248,6 +248,7 @@ form.searchbox button:hover {
   padding: 10px;
   display: block;
   text-align: center;
+  cursor: pointer;
 }
 
 .form-element label[for="password"] {
@@ -419,7 +420,7 @@ form.searchbox button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .2);
+  box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, 1);
   border: 6px solid transparent;
   border-radius: 5px;
   background-color: #111;
@@ -450,6 +451,7 @@ form.searchbox button:hover {
   width: 300px;
   font-size: 20px;
   cursor: pointer;
+  color:  #fe646f;
 }
 
 .descriptionItems {
@@ -536,6 +538,7 @@ form.searchbox button:hover {
   font-size: 40px;
   color: #ccc;
   padding-left: 60px;
+  cursor: pointer;
 }
 
 .userPageInfo {
@@ -552,7 +555,6 @@ form.searchbox button:hover {
   color: #ccc;
   padding-left: 60px;
   width: 400px;
-
 }
 
 .userPageInfo input[type="editable"],
@@ -617,17 +619,77 @@ form.searchbox button:hover {
   color: #e9e9e9;
   width: 600px;
   float: right;
+  cursor: pointer;
 }
 
 .scrollHistorialContenido {
   color: #e9e9e9;
 }
 
+/* ScrollData ======================*/
 .userPageInfo .form-button{
   margin-left: 67px;
 }
+.scrollOrder .scrollWindow{
+  float: left;
+  height: 282px;
+  
+}
+.scrollOrder .scrollWindowTitle{
+  float: left;
+}
+.scrollOrder .producto{
+  width: auto;
+  height: 150px;  
+  margin: auto;
+  margin-right: 20px;  
+}
+.scrollOrder .scrollWindow{
+margin: 0px;
+}
+.scrollOrder .scrollWindowTitle{
+  height: auto;
+  width: 300px;
+}
+.scrollOrder .form-element{
+  float: right;      
+  margin-top: 30px;  
+}
+.scrollOrder .direcciones{
+  height: 102px;  
+  width: 300px;
+  border-style: solid;
+  border-color: rgba(255, 156, 156, 0.712);
+}
+.scrollOrder .userPageInfo{
+  width: auto;
+  margin-left: 30px;
+}
+.scrollOrder .userPageInfo input{
+  margin: 0px;
+}
 
-/* ScrollData ======================*/
+.scrollOrder .select{
+  width: 230px;  
+}
+
+.scrollOrderPrices{   
+  width: 100px;
+  height: 100px;
+}
+.scrollOrderPrices .direcciones{
+  width: 786px;
+  height: 150px;
+}
+.scrollOrderPrices h2{  
+  font-size: 25px;
+  color: #ccc;  
+}
+.direcciones h2{
+  font-size: 15px;
+  margin-left: 10px;
+}
+/* order ===========================*/
 
 /*==============CONFIGS=============*/
 /* logoConfig ======================*/

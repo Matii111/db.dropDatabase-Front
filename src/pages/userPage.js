@@ -22,7 +22,9 @@ class UserPage extends React.Component {
           <GotTop></GotTop>
           <div class="content">
             <body>
-              <ScrollWindow />
+              <ScrollWindow 
+              titulo="Historial de compras"
+              />
               <UserData></UserData>
             </body>
           </div>
