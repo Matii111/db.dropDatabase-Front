@@ -1,7 +1,9 @@
 # Paquetes necesarios
+    npm react-router-dom
     npm install react-slideshow-image -S
     npm install --save styled-components
     npm i bootstrap-icons
+    npm install react-leaflet
 
 # Mock de diseño de la página web  
 Para mejorar la elaboración de la página web se elabora el siguiente mock del diseño: 
